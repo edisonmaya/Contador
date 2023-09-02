@@ -1,0 +1,85 @@
+/*==============================
+Estas clases no son invocadas dentro del Main.js por algún tipo de conflicto interno con value.classList.add('xxxxxxxxx') 
+en su reemplazo uso la propiedad value.style.color('xxxxxxxxxxx')
+.black{
+    color:black;
+}
+.blue{
+    color:blue;
+}
+.red{
+    color:red;
+}
+===============================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+:root{
+    --oscuro:   #263339;
+    --claro050: #D0EBEA;
+    --claro100: #cdfaf6;
+    --claro200: #80CBC4;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    
+}
+main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+}
+.content{
+    display: grid;
+    place-items: center;
+    height: 80vh;
+    min-width: 350px;
+    border: 1px solid none;
+    box-shadow: 1px 1px 6px  #263339 ;
+    border-radius: 1rem;
+    background-color: var(--claro100);
+    background: linear-gradient( var(--claro200),var(--claro100),var(--claro050));
+}
+
+.botones{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+#value{
+    display: grid;
+    place-items: center;
+    height: 10rem;
+    width: 10rem;
+    border:1px solid var(--oscuro);
+    border-radius: 50%;
+    background-color: var(--claro050);    
+    font-size: 2.5rem;
+}
+
+#inc,#dec,#res{
+    height: 3rem;
+    width: 3rem;
+    border:1px solid var(--oscuro);
+    border-radius: 50%;
+    background-color: var(--oscuro);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
