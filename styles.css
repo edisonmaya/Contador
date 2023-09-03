@@ -36,7 +36,7 @@ main{
 .content{
     display: grid;
     place-items: center;
-    height: 80vh;
+    height: 50vh;
     min-width: 350px;
     border: 1px solid none;
     box-shadow: 1px 1px 6px  #263339 ;
@@ -70,9 +70,15 @@ main{
     border-radius: 50%;
     background-color: var(--oscuro);
     color: white;
+    
 }
 
-
+@media (width > 1000px)
+{
+    .content{
+        height: 80vh;
+        }
+}
 
 
 
