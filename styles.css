@@ -36,8 +36,8 @@ main{
 .content{
     display: grid;
     place-items: center;
-    height: 50vh;
-    min-width: 350px;
+    min-height: 80vh;
+    min-width: 70vw;
     border: 1px solid none;
     box-shadow: 1px 1px 6px  #263339 ;
     border-radius: 1rem;
@@ -76,7 +76,9 @@ main{
 @media (width > 1000px)
 {
     .content{
-        height: 80vh;
+        min-height: 80vh;
+        min-width: 350px;
+
         }
 }
 
