@@ -15,10 +15,14 @@ en su reemplazo uso la propiedad value.style.color('xxxxxxxxxxx')
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 :root{
     --oscuro:   #263339;
+    --white: #fff;
     --claro050: #D0EBEA;
     --claro100: #cdfaf6;
     --claro200: #80CBC4;
 
+}
+body{
+    background-color: var(--white);
 }
 *{
     margin: 0;
@@ -27,6 +31,7 @@ en su reemplazo uso la propiedad value.style.color('xxxxxxxxxxx')
     font-family: 'Comfortaa', cursive;
     
 }
+
 main{
     display: grid;
     place-items: center;
