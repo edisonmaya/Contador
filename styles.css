@@ -21,9 +21,6 @@ en su reemplazo uso la propiedad value.style.color('xxxxxxxxxxx')
     --claro200: #80CBC4;
 
 }
-body{
-    background-color: var(--white);
-}
 *{
     margin: 0;
     padding: 0;
@@ -86,13 +83,3 @@ main{
 
         }
 }
-
-
-
-
-
-
-
-
-
-
